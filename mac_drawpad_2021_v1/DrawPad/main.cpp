@@ -38,5 +38,8 @@ void DrawMain()
     for (int x = 50; x < 250; x+=10) {
         Paint(x+5, 0, kColorDarkBlue, kColorBlue);
     }
+    
+    Sleep(0.5f);
+    DrawText("Hello, world!!", -12*14/2, -66, kColorGray);
 }
 
